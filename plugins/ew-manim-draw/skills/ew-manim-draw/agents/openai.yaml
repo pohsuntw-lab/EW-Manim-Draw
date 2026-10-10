@@ -1,0 +1,9 @@
+interface:
+  display_name: "EW Manim Draw"
+  short_description: "Flow to motion｜流程變動畫"
+  icon_small: "./assets/icon.png"
+  icon_large: "./assets/icon.png"
+  brand_color: "#5F6368"
+  default_prompt: "Use $ew-manim-draw to convert my workflow or architecture into a validated, deterministic Manim animation plan. Keep all nodes and transitions faithful to my source, then render only if a runtime is available. 請依照我的流程或架構，生成可驗證的 Manim 動畫規劃，不得自行增加節點或功能；只有在可用的渲染環境中才輸出影片。"
+policy:
+  allow_implicit_invocation: true
