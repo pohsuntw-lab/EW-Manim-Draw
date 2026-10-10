@@ -1,0 +1,33 @@
+{
+  "name": "ew-manim-draw",
+  "version": "0.1.0",
+  "description": "Bilingual AI-assisted deterministic animated flowchart planning and Manim project generation. Video rendering requires a configured runtime.",
+  "author": {
+    "name": "Embodied Worker",
+    "url": "https://www.embodiedworker.com"
+  },
+  "skills": "./skills/",
+  "interface": {
+    "displayName": "EW Manim Draw",
+    "shortDescription": "Flow to motion｜流程變動畫",
+    "longDescription": "Turn process descriptions into validated flow structures and Manim-ready animation plans. Render MP4 only when an authorized Manim runtime is available. 將流程描述轉換為可驗證的流程結構及 Manim 動畫規劃；僅在已連接且經授權的 Manim 執行環境中輸出 MP4。",
+    "developerName": "Embodied Worker",
+    "category": "Developer Tools",
+    "capabilities": [
+      "Interactive",
+      "Write"
+    ],
+    "defaultPrompt": [
+      "Animate my workflow / 將我的工作流程製作成動畫。",
+      "Visualize a system architecture / 製作系統架構動畫。",
+      "Review and improve this animation plan / 檢查並優化動畫規劃。"
+    ],
+    "brandColor": "#5F6368",
+    "composerIcon": "./assets/icon.png",
+    "logo": "./assets/icon.png",
+    "websiteURL": "https://www.embodiedworker.com",
+    "supportURL": "https://www.embodiedworker.com/support",
+    "privacyPolicyURL": "https://www.embodiedworker.com/privacy",
+    "termsOfServiceURL": "https://www.embodiedworker.com/terms"
+  }
+}
