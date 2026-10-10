@@ -1,0 +1,27 @@
+{
+  "title": "EW Manim Draw Demo",
+  "nodes": [
+    {
+      "id": "ask",
+      "label": "使用者提問"
+    },
+    {
+      "id": "route",
+      "label": "MCP 工具路由"
+    },
+    {
+      "id": "answer",
+      "label": "答案與證據"
+    }
+  ],
+  "edges": [
+    {
+      "from": "ask",
+      "to": "route"
+    },
+    {
+      "from": "route",
+      "to": "answer"
+    }
+  ]
+}
